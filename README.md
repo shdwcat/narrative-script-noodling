@@ -38,3 +38,13 @@ With this:
     We failed to set the variable!
 ```
 Note: this would benefit from (and basically require) a vscode extension specifically for this custom markdown format
+
+# ink-style choice limiting
+
+[Ink](https://github.com/inkle/ink/) has a concept called [Sticky Choices](https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#sticky-choices), where the different choice symbols mean different things:
+* `*` is a choice that will only be shown once
+* `+` is a choice that will be shown no matter how many times you choose it
+
+Since Markdown already supports using those symbols for list items, it wouldn't be hard to support something similar in an implementation
+
+The one issue I can think of is that the markdown spec says that if you mix the list item symbol then the items are considered parts of separate lists, rather than different types of items within the same list. Solvable, but a bit icky, perhaps.
