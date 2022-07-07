@@ -1,0 +1,7 @@
+{
+    "editor.wordWrap": "on",
+    "files.associations": {
+        "*.tale": "markdown",
+    },
+    "markdown.preview.breaks": true
+}
