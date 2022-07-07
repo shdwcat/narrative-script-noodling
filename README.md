@@ -5,7 +5,7 @@ https://marketplace.visualstudio.com/items?itemName=shdwcat.markdown-wiki-links-
 
 # Notes
 
-[Test.Yarn](Content/Test.yarn) is a very literal port of the [Chatterbox Test.Yarn](https://github.com/JujuAdams/Chatterbox/blob/master/datafiles/Test.yarn) script converted to 'Narrative Markdown', in the following way:
+[Test.tale](Content/Test.tale) is a very literal port of the [Chatterbox Test.Yarn](https://github.com/JujuAdams/Chatterbox/blob/master/datafiles/Test.yarn) script converted to 'Narrative Markdown', in the following way:
 
 1. Node titles are declared with Markdown headers
 1. Command syntax (`<<command stuff>>`) uses Markdown-style backticks (`) instead
